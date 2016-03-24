@@ -1,0 +1,10 @@
+module.exports = {
+	// counter
+	ADD: 'ADD',
+
+  // api test
+	API_TEST_REQUEST: "API_TEST_REQUEST",
+	API_TEST_SUCCESS:	"API_TEST_SUCCESS",
+	API_TEST_FAILURE: "API_TEST_FAILURE",
+
+}
