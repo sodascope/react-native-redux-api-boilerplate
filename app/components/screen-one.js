@@ -13,7 +13,7 @@ class ScreenOne extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.description}>
-          This is your Home View
+          This is Screen One
         </Text>
         <Counter />
       </View>

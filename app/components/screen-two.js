@@ -13,7 +13,7 @@ class ScreenTwo extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.description}>
-          This is your Second View
+          This is Screen Two
         </Text>
         <ApiTest />
       </View>
