@@ -15,6 +15,15 @@ This is a react-native boilerplate for a simple app with a TabBar, a Redux data 
 - ES6 syntax throughout
 - Code organized in simple directory structure
 
+####Installation
+See React-Native [Getting Started](https://facebook.github.io/react-native/docs/getting-started.html) to install required tools.
+
+```bash
+$ npm install -g react-native-cli
+$ npm install
+$ react-native run-ios
+```
+
 Notes:
 - Android not tested (yet)
 - Small adjustements to redux-api-middleware and isomorphic-fetch necessary
