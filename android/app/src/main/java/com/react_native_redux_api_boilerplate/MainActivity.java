@@ -1,4 +1,4 @@
-package com.test;
+package com.react_native_redux_api_boilerplate;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactPackage;
