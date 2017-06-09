@@ -11,6 +11,7 @@ This is a react-native boilerplate for a simple app with a TabBar, a Redux data 
 - Platform independent TabBar implementation
 - React-native-router-flux as router implementation (using Scene instead of Route)
 - redux-api-middleware for external api call
+- now using fetch-everywhere for cross platform global fetch
 - Using redux-logger for logging
 - ES6 syntax throughout
 - Code organized in simple directory structure
@@ -19,11 +20,18 @@ This is a react-native boilerplate for a simple app with a TabBar, a Redux data 
 See React-Native [Getting Started](https://facebook.github.io/react-native/docs/getting-started.html) to install required tools.
 
 ```bash
-$ npm install -g react-native-cli
-$ npm install
+$ yarn global add react-native-cli
+$ yarn install
 $ react-native run-ios
+or
+$ react-native run-android
 ```
 
-Notes:
-- Android not tested (yet)
+Release Notes
+0.3.0:
+- Android now tested
+- No more adjustments on redux-api-middleware necessary
+
+0.2.0:
+- Android now tested (yet)
 - Small adjustements to redux-api-middleware and isomorphic-fetch necessary

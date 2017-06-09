@@ -1,4 +1,5 @@
-import React, { Component, Text, TouchableHighlight, StyleSheet } from 'react-native';
+import React, { Component } from 'react';
+import { Text, TouchableHighlight, StyleSheet } from 'react-native';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import ApiTestActions from "../actions/api-test";
