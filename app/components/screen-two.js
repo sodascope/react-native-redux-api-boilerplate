@@ -1,10 +1,10 @@
 'use strict';
 
-import React, {
+import React, { Component } from 'react';
+import {
     StyleSheet,
     View,
-    Text,
-    Component
+    Text
 } from 'react-native';
 import ApiTest from './api-test';
 

@@ -1,7 +1,8 @@
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 import CounterActions from "../actions/counter";
-import React, { Text, TouchableHighlight, StyleSheet } from 'react-native';
+import React from 'react';
+import { Text, TouchableHighlight, StyleSheet } from 'react-native';
 
 var Counter = React.createClass({
 	displayName: "Counter",
